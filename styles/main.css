@@ -1,0 +1,162 @@
+body {
+    background-color: #5f4820;
+    color: rgb(223, 229, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color:#d2b0a2;
+}
+nav a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(57, 41, 41);
+    margin-right: 1px;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+/* logo styling*/
+.headerpic{
+    height: 3.5rem;
+    width: auto;
+    color: white;
+}
+
+/* Carousel styling*/
+.d-block{
+    width: 400px;
+    height: 620px;
+}
+
+/* park styling*/
+.park{
+    text-align: center;
+}
+
+#results div {
+    text-align: center;
+}
+.nav-item{
+    color: blanchedalmond;
+}
+
+/* inserted videos styling for home page*/
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.background-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+/* writing on top of the background video styling*/
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 1;
+}
+.overlay h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.overlay button{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.6 );
+    color: rgb(251, 244, 244);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.overlay button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* search form styling*/
+form{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 30px;
+}
+input[type="search"]{
+    padding: 1px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+button{
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(51, 27, 27);
+    color: white;
+    border-radius: 4px;
+}
+/* social media icon styling @footer*/
+.footer{
+    background-color: #4d3712;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    justify-content: right;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.fa {
+    padding: 8px;
+    font-size: 20px;
+    width: 40px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .rights{
+    text-align: center;
+    background-color: #4d3712;
+  }
+/*mountain styling */
+.results-container{
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: 20px auto;
+}
+#mountainsSelect{
+    margin-right: 40rem;
+    background-color: rgb(237, 237, 237);
+    font-family: Arial, sans-serif;
+}
+.mountain{
+    text-align: center;
+}
