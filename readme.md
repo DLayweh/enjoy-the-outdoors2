@@ -2,7 +2,7 @@
 
 ## Synopsis
 
- Welcome to Footprints Aventure, a stunning natural destination offering breathingtaking landscapes, parks, mountains, outdoor aventure and opportunities for relaxation and exploration. Make sure to click on the "Explore Activities" button on the home page to view few of the list of activities we offer and if you have any additional questions please click on "contact" for our cintact information.
+ Welcome to Footprints Adventure, a stunning natural destination offering breathingtaking landscapes, parks, mountains, outdoor aventure and opportunities for relaxation and exploration. Make sure to click on the "Explore Activities" button on the home page to view few of the list of activities we offer and if you have any additional questions please click on "contact" for our cintact information.
  
  ##
 This is my second capstone projcet for my Front-end Developement class.

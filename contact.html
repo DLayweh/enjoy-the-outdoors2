@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./styles/main.css">
     <script src="./scripts/main.js"></script>
@@ -23,65 +23,70 @@
                 <img src="./images/logo2.png" class="headerpic" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="index.html" class="selected"><b>HOME</b></a>
+                        <a href="index.html" class="selected"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg><b>HOME</b></a>
                     </li>
                     <li class="nav-item">
-                        <a href="./mountains.html"><b>MOUNTAINS</b></a>
+                        <a href="./mountains.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9L55.9 480C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8l49 0z"/></svg><b>MOUNTAINS</b></a>
                     </li>
                     <li class="nav-item">
-                        <a href="./parks.html"><b>PARKS</b></a>
+                        <a href="./parks.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M210.6 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208l24.9 0L30.6 281.4c-4.2 4.2-6.6 10-6.6 16C24 309.9 34.1 320 46.6 320L80 320 5.4 409.5C1.9 413.7 0 419 0 424.5c0 13 10.5 23.5 23.5 23.5L192 448l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 168.5 0c13 0 23.5-10.5 23.5-23.5c0-5.5-1.9-10.8-5.4-15L368 320l33.4 0c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L344 208l24.9 0c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9z"/></svg><b>PARKS</b></a>
+                    </li>
+                </ul>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html"><b>Contact</b></a>
                     </li>
                 </ul>
             </div>
+            <form action="mountains.html" method="get">
+                <label for="search"></label>
+                <input type="search" id="search" name="query" placeholder="enter your search...">
+                <button type=submit>results</button>
+            </form>
         </div>
     </nav>
 </header>
 <div class="video-container">
     <video autoplay muted loop class="background-video">
-        <source src="images/fall video.mp4" type="video/mp4">
+        <source src="images/mountain.mp4" type="video/mp4">
     </video>
-    
+
     <div class="overlay">
         <div class="business-hours">
-        <h1><b> contact Us</b></h1>
-        <h5>Business Hours</h5>
-        <ul>
-            <li>Monday - Friday: 9:00 AM - 5:00 PM</li>
-            <li>Saturday: 8:00 AM - 6:00 PM</li>
-            <li>Sunday: Closed</li>
-        </ul>
-    </div>
-    <div class="contact-details">
-        <h1><b>Contact Information</b></h1>
-        <p>Email: footprintsadventure@gmail.com</p>
-        <p>Phone: +1444-444-7777</p>
-        <p>7777 Faith Texas, Austin, United States</p>
-    </div>
-            <button onclick="window.location.href='/index.html';" class="explore-btn"><b>Return to Home Page</b></button>
+            <h2><b> Contact Us</b></h2>
+            <h5>Business Hours</h5>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 5:00 PM</li>
+                <li>Saturday: 8:00 AM - 6:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+        <div class="contact-details">
+            <h2><b>Contact Information</b></h2>
+            <p>Email: footprintsadventure@gmail.com</p>
+            <p>Phone: +1444-444-7777</p>
+            <p>7777 Faith Texas, Austin, United States</p>
+        </div>
+        <button onclick="window.location.href='/index.html';" class="explore-btn"><b>Return to Home Page</b></button>
 
     </div>
 </div>
-<footer class="footer">
-    <ul class="footer-links">
-        <a href="/about.html">About</a><br>
-        <a href="/contact.html">Contact</a>
-        
-        <a href="./explore.html"></a>
-        
-
-    </ul>
+<footer class="rights">
+    <br>
     <h5>Follow Us On:</h5>
     <a href="#" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-instagram"></a>
     <a href="#" class="fa fa-twitter"></a>
-</footer>
-<footer class="rights">
-     &copy Footprints Adventure <br>
+    <br>
+    &copy; Footprints Adventure
 </footer>
