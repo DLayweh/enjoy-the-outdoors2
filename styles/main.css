@@ -68,6 +68,7 @@ nav a {
 .overlay h1{
     font-size: 3em;
     margin-bottom: 20px;
+    color: white;
 }
 .overlay button{
     padding: 10px 20px;
@@ -147,7 +148,7 @@ button{
   }
 /*mountain styling */
 .results-container{
-    background-color:#4d3712;;
+    background-color:#5f4820;;
     color: white;
     width: 60%;
     margin: 20px auto;
