@@ -16,6 +16,33 @@
     <link rel="stylesheet" href="./styles/main.css">
     <script src="./scripts/main.js"></script>
 </head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./images/logo2.png" class="headerpic" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a href="index.html" class="selected"><b>HOME</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="./mountains.html"><b>MOUNTAINS</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="./parks.html"><b>PARKS</b></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
 <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -30,18 +57,21 @@
         <img src="./images/hiking.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h1><b>Hiking</h1>
+            <p><h5> Our 10 miles of well maintained trails, ranging from easy walks to challenging summit routes. Dont miss the Mt. Bond panoramic views of the surronding area.<h5></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./images/Mountain2.jpg" class="d-block w-100" alt="...">
+        <img src="./images/ziplining.webp" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1><b> Discover Trails</h1>
+          <h1><b>zip Lining</h1>
+            <p><h5>Whether you're a first-timer or an exprienced adventurer, ziplining is a great activity for making lasting memories and expriencing the thrill of flying through the air!</h5></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./images/camping.jpg" class="d-block w-100" alt="...">
+        <img src="./images/camping.jpg" class="d-block w-100"  lt="...">
         <div class="carousel-caption d-none d-md-block">
           <h1><b>Camping</h1>
+            <p id="paragraph"><h5>Enjoy an overnight adventure at one of the parks campgrounds, overing both tents and RV sites</h5></p>
         </div>
       </div>
     </div>
@@ -54,7 +84,22 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <footer class="footer">
+    <ul class="footer-links">
+        <a href="/about.html">About</a><br>
+        <a href="/contact.html">Contact</a>
+        
+        <a href="./explore.html"></a>
+        
 
-  <button onclick="window.location.href='/index2.html';" class="explore-btn"><b>Back To Home Page</b></button>
-    
+    </ul>
+    <h5>Follow Us On:</h5>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+</footer>
+<footer class="rights">
+     &copy Footprints Adventure <br>
+</footer>
+
 </div>

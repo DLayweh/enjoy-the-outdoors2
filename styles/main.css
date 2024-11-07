@@ -24,9 +24,8 @@ nav a {
 /* Carousel styling*/
 .d-block{
     width: 400px;
-    height: 620px;
+    height: 600px;
 }
-
 /* park styling*/
 .park{
     text-align: center;
@@ -61,7 +60,7 @@ nav a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     z-index: 1;
 }
@@ -147,10 +146,13 @@ button{
   }
 /*mountain styling */
 .results-container{
-    background-color: white;
-    color: black;
+    background-color:#4d3712;;
+    color: white;
     width: 60%;
     margin: 20px auto;
+    box-shadow: none;
+    border: none;
+    outline: none;
 }
 #mountainsSelect{
     margin-right: 40rem;
@@ -160,3 +162,39 @@ button{
 .mountain{
     text-align: center;
 }
+
+/*About us page (contact info styling)*/
+.contact-info{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.contac-info h1{
+    text-align: center;
+    color: white;
+}
+.business-hours ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 15px;
+}
+.business-hours li{
+    list-style: none;
+    padding: 5px 0;
+    font-size: 20px;
+}
+.contact-details p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.contact-details a{
+    color: white;
+    text-decoration: none;
+}
+
