@@ -26,7 +26,7 @@ This is my second capstone projcet for my Front-end Developement class.
 
 >Explore Page clicking the "Explore Activities" button on the home page takes you to a page featuring a carousel slider showcasing some suggested activities four our coustomers.
 
->About Page gives you detailed information about the company and their mission
+>About Page gives you detailed information about the company and their mission.
 
 >Contact Page provides our contact information and business hours.
 
