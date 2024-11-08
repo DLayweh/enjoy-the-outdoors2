@@ -15,7 +15,7 @@ This is my second capstone projcet for my Front-end Developement class.
 
 >Bootstrap
 
->ChatGPT
+>Font Awesome(SVG)
 
 ## Features
 >Home Page gives you a brief discription of our site. it also has a navigation bar to help our visitors explore the website easily.
