@@ -34,7 +34,7 @@ This is my second capstone projcet for my Front-end Developement class.
 
 ## Screenshots of each page list in "features"
 >![Alt text](images/homepage.png)
->![Alt text](images/mountain%20page.png)
+>![Alt text](images/mountainpage.png)
 >![Alt text](images/park%20page.png)
 >![Alt text](images/explore%20page.png)
 >![Alt text](images/about%20page.png)
